@@ -1,15 +1,11 @@
-x = 1  # int
-x = 1.1  # float
-x = 1 + 2j  # complex number (a + bi)
+import math  # imports the math module
 
-print(10 + 3)  # addition
-print(10-3)  # subtraction
-print(10*3)  # multiplication
-print(10/3)  # division returns floats
-print(10//3)  # returns an integer of division
-print(10 % 3)  # returns the remainder of division
-print(10 ** 3)  # exponentiation
+print(round(2.9))  # rounds to the nearest int
+print(abs(-2.9))  # returns the absolute value
 
-x = 10
-x = x + 3  # increases the value of x by 3
-x += 3  # increases the value of x by 3 (exact same)
+
+# the following are from the import
+
+print(math.ceil(2.2))  # rounds UP
+
+# you can search up python3 math modules for all of the other functions
