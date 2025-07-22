@@ -1,5 +1,7 @@
-
-
-course = "Python \"Programming\""  # for quotes inside of quotes
-course = "Pyton \nProgramming"  # for new line
-course = "Python \\Programming"  # so the first \ allows for the second \
+first = "Amartya"
+last = "Giri"
+full = first + " " + last
+full = f"{first} {last}"
+# any value expressions can be put between curly braces
+full = f"{len(first)} {2 + 2}"
+print(full)
