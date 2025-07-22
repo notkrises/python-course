@@ -1,21 +1,15 @@
-course = "  Python Programming   "
+x = 1  # int
+x = 1.1  # float
+x = 1 + 2j  # complex number (a + bi)
 
-# creates a NEW string that is upper_case, the original string is not affected
-course_capital = course.upper()
-# creates a a lower case string
-course_lowercase = course.lower()
-# capitalizes the first letter of every word
-course_title = course.title()
-# strips the useless spaces in a str
-course_stripped = course.strip()
-print(course.rstrip())  # strips the end
-print(course.lstrip())  # strips the beginning\
+print(10 + 3)  # addition
+print(10-3)  # subtraction
+print(10*3)  # multiplication
+print(10/3)  # division returns floats
+print(10//3)  # returns an integer of division
+print(10 % 3)  # returns the remainder of division
+print(10 ** 3)  # exponentiation
 
-# finds the index of when "Pro" shows up, and IS case-sensitive
-print(course.find("Pro"))
-print(course.replace("P", "J"))  # replaces all instances of "P" with "J"
-# returns a boolean compared to find which returns an index
-print("pro" in course)
-print("swift" not in course)  # returns true bc swift is not in course
-
-print(course.upper())
+x = 10
+x = x + 3  # increases the value of x by 3
+x += 3  # increases the value of x by 3 (exact same)
