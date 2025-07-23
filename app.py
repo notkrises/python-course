@@ -1,6 +1,6 @@
-def greet():  # name it the same way a var is named, colons are necessary
-    print("Hi there")
-    print("Welcome aboard")
+def greet(first_name, last_name):  # these are PARAMETER
+    print(f"Hi {first_name} {last_name}")
 
 
-greet()
+greet("Amartya", "Giri")  # these are the ARGUEMENTS which a function takes
+greet("John", "Smith")
