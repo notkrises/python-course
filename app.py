@@ -1,8 +1,8 @@
-temp = 15
-if temp > 30:
-    print("It's hot, so drink water")
-elif temp > 20:
-    print("it's nice")
-else:
-    print("it's chilly")
-print("Done")
+count = 0
+for num in range(1, 10):
+    if num % 2 == 0:
+        count += 1
+        print(num)
+    else:
+        pass
+print(f"We have {count} even numbers")
