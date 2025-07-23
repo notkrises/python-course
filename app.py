@@ -1,6 +1,6 @@
-def greet(first_name, last_name):  # these are PARAMETER
-    print(f"Hi {first_name} {last_name}")
+def increment(number, by):
+    return number + by
 
 
-greet("Amartya", "Giri")  # these are the ARGUEMENTS which a function takes
-greet("John", "Smith")
+# keyword argument, not necessary but allows reader to know what it stands for
+print(increment(2, by=1))
