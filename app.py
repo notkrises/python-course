@@ -1,11 +1,11 @@
-import math  # imports the math module
+x = input("x: ")
+y = int(x) + 1
+"""
+y = x + 1 # gives error bc adding an integer to a str
 
-print(round(2.9))  # rounds to the nearest int
-print(abs(-2.9))  # returns the absolute value
+int(x) # converts into an int
+str(x) # converts into a str
+float(x) # converts into a float
+bool(x) # converts into a bool (0, "", and None are False, everything else is True)"""
 
-
-# the following are from the import
-
-print(math.ceil(2.2))  # rounds UP
-
-# you can search up python3 math modules for all of the other functions
+print(f"x: {x}, y: {y}")
