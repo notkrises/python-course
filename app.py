@@ -1,8 +1,6 @@
-count = 0
-for num in range(1, 10):
-    if num % 2 == 0:
-        count += 1
-        print(num)
-    else:
-        pass
-print(f"We have {count} even numbers")
+def greet():  # name it the same way a var is named, colons are necessary
+    print("Hi there")
+    print("Welcome aboard")
+
+
+greet()
